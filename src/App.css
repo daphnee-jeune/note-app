@@ -1,38 +1,94 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  padding: 20px 10px;
+  color: white;
+  background: rgb(22, 38, 112);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.form input {
+  padding: 5px;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1.5px solid rgb(22, 38, 112);
+}
+
+.form button {
+  margin-left: 10px;
+  color: white;
+  background: #0c811c;
+  padding: 5px 10px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.note {
+  width: 20%;
+  margin: 10px;
+  padding: 13px;
+  border-radius: 5px;
+  border: solid lightgray 1.5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-container button {
+  margin-right: 10px;
+}
+
+.updateBox {
+  margin: 10vh 90vh;
+  padding: 0.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.updateBtn {
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.edit {
   color: white;
+  background: rgb(221, 192, 30);
+  padding: 5px 10px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete {
+  color: white;
+  background: #dc3545;
+  padding: 5px 10px;
+  border: none;
 }
