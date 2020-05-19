@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <nav>
             <div>
-                Todos
+                To Do's
             </div>
         </nav>
     )
