@@ -90,6 +90,14 @@ button {
 }
 
 @media (max-width: 768px) {
+  form {
+    margin: 25px 0;
+  }
+
+  form:focus {
+    outline: none;
+  }
+  
   .notes-container {
     display: flex;
     flex-direction: column;
