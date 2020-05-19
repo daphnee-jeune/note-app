@@ -100,4 +100,19 @@ button {
   .note {
     width: 200px;
   }
+
+  .note-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .updateBox {
+    margin: 16% 0;
+    width: 200px;
+    border-left: 0.5px solid lightgray;
+    padding: 0.5rem 0;
+    text-align: center;
+  } 
 }
